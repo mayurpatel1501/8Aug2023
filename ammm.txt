@@ -1,0 +1,46 @@
+1 .Registration and Login:
+
+Verify that a new user can successfully register with a valid email and password.
+Verify that the user receives a verification email upon registration.
+Verify that a user can log in with valid credentials.
+Verify that the website displays appropriate error messages for invalid login attempts.
+2 .Dashboard:
+
+Verify that the user is redirected to the dashboard after successful login.
+Verify that the dashboard displays the user's cryptocurrency balance and recent transactions.
+Verify that the user can navigate to different sections of the dashboard without any issues.
+3 .Wallet Operations:
+
+Verify that the user can generate a new cryptocurrency wallet.
+Verify that the user can import an existing wallet using a valid private key or mnemonic phrase.
+Verify that the user can send cryptocurrency to another wallet address.
+Verify that the user receives a confirmation message before executing a transaction.
+4 .Security:
+
+Verify that the website uses HTTPS to ensure secure communication.
+Verify that the user is prompted for two-factor authentication (2FA) during login and critical operations.
+Verify that the user can recover their account using the provided account recovery process.
+5.Transaction History:
+
+Verify that all user transactions are correctly recorded in the transaction history.
+Verify that transaction details, such as date, time, amount, and status, are displayed accurately.
+6 .Account Settings:
+
+Verify that the user can update their profile information (name, email, etc.).
+Verify that the user can change their account password.
+Verify that the user can enable or disable two-factor authentication.
+7 .Compatibility:
+
+Verify that the website is responsive and works well on different devices (desktop, tablet, mobile).
+Verify that the website is compatible with various web browsers (Chrome, Firefox, Safari, etc.).
+8 .Error Handling:
+
+Verify that appropriate error messages are displayed for invalid inputs or failed operations.
+Verify that the website gracefully handles unexpected errors and prevents sensitive information leakage.
+9 .Performance:
+
+Verify that the website's response time is acceptable, even under heavy user load.
+10 .Logout:
+
+Verify that the user can log out of the website, and after logout, the user cannot access the dashboard or perform any authenticated actions without re-logging in.
+These are just some basic test cases to get you started. Depending on the complexity of the Cypherock website, you may need to create additional test cases to ensure comprehensive testing.
